@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.gateway"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "br.com.gateway",
+    "packageFolder": "br/com/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Mjk0OWRkZmQ2MWI4ZTBmYTkwNzg4NDE2ZjZhNDIxMTI0M2EyZTAzNjNmODlkMzAwZWE2MzM5Y2MwODk5OTUzMjI1ZjY4NjJkOTgxODUwMTAxZTVjN2JlZGVjYTQ0OTUxYzA5YmI2Yjk4NjE5MWQ1ODJkOGQyNDljYTJhNjA5OGE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1603737891805,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
